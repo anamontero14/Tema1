@@ -20,7 +20,7 @@ public class Ejer8 {
 		
 		edad = leer.nextInt();
 		
-		System.out.println("Hola " + nombre + "tienes ");
+		System.out.println("Hola " + nombre + " tienes " + edad + " años, ¡qué mayor eres!" );
 	}
 
 }

@@ -29,7 +29,7 @@ public class Ejer2 {
 		
 		/*a la variable edadSiguiente le he asignado el valor de la variable
 		 edad + un 1 que sería la edad del siguiente año*/
-		edadSiguiente = edad += 1;
+		edadSiguiente = ++edad;
 		
 		//le enseño al usuario el resultado
 		System.out.println("La edad que usted tendrá el año que viene será " + edadSiguiente);
