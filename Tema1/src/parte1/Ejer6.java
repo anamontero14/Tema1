@@ -44,6 +44,9 @@ public class Ejer6 {
 		div = num1 / num2;
 	
 		//4º Resultado en diferente línea
+		
+		//se puede hacer directamente tmb System.out.println("La suma de los números es: " + (num1 + num2));
+		//System.out.println("La division de los números es: " + (double) num1 / num2)
 		System.out.println("La suma de los números es: " + suma);
 		System.out.println("La resta de los números es: " + resta);
 		System.out.println("La multiplicación de los números es: " + multi);
