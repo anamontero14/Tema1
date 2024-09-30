@@ -9,12 +9,29 @@ public class ejer5 {
 		//introducir una cantidad de segundos
 		
 			//variables
+			int numSeg;
+			int horas = 0;
+			int minutos;
 			int seg;
 			
 			//escaner
 			Scanner leer = new Scanner(System.in);
 		
+			//preguntar por valores
+			System.out.println("Introduzca un número de segundos:");
+			
+			//entrada
+			numSeg = leer.nextInt();
+			
 		//mostrar cuantas horas, minutos y segundos hay en el número de segundos introducidos por el usuario
+		minutos = numSeg / 60;
+		horas = minutos / 60;
+		
+		//SOLUCION
+		System.out.println("En " + numSeg + " segundos hay " + minutos + " minutos y " + horas + " horas");
+		
+			//cerrar escaner
+			leer.close();
 
 	}
 
