@@ -25,8 +25,12 @@ public class ejer8 {
 			//inicio la entrada de datos para que me diga la longitud y lo q introduzca se asignara a la variable longitudM
 			longitudM = leer.nextDouble();
 		
-		longitudCM = (int)longitudM * 100;
-			
+		//convierto la distancia en metros a cm
+		longitudCM = (int) longitudM * 100;
+	
+		//muestro el resultado por pantalla
+		System.out.println("La longitud en cm es de " + (int) longitudCM);
+		
 		//cierro el escaner
 		leer.close();
 		
