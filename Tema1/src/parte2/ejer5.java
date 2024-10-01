@@ -10,8 +10,9 @@ public class ejer5 {
 		
 			//variables
 			int numSeg;
-			int horas = 0;
+			int horas;
 			int minutos;
+			int minFinales;
 			int seg;
 			
 			//escaner
@@ -25,10 +26,12 @@ public class ejer5 {
 			
 		//mostrar cuantas horas, minutos y segundos hay en el número de segundos introducidos por el usuario
 		minutos = numSeg / 60;
+		minFinales = minutos % 60;
+		seg = numSeg % 60;
 		horas = minutos / 60;
 		
 		//SOLUCION
-		System.out.println("En " + numSeg + " segundos hay " + minutos + " minutos y " + horas + " horas");
+		System.out.println("En " + seg + " segundos hay " + minFinales + " minutos y " + horas + " horas");
 		
 			//cerrar escaner
 			leer.close();
